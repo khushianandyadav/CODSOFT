@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Background and Font */
+body {
+  font-family: Arial, sans-serif; /* Sets a clean, modern font */
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color for readability */
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+}
+  
+  header {
+    background-color: #866cf8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #f5eef4;
+    text-decoration: none;
+  }
+
+  nav a {
+    color: #fff; /* White links */
+    text-decoration: none; /* Removes underline */
+    margin: 0 10px; /* Adds space between links */
+  }
+  
+  nav a:hover {
+    color: #ff6347; /* Changes color on hover */
+  }
+
+  /* Stylish Buttons */
+button {
+  background-color: #007BFF; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Removes border */
+  padding: 10px 20px; /* Adds spacing */
+  border-radius: 5px; /* Rounds corners */
+  cursor: pointer; /* Changes cursor to pointer */
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Georgia', serif; /* Elegant font for headings */
+  color: #333; /* Dark color */
+  text-align: center; /* Centers headings */
+  margin-bottom: 10px; /* Adds spacing below */
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6; /* Improves readability */
+  margin-bottom: 20px; /* Adds spacing below */
+}
+
+/* Simple Hover Animation */
+button {
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+  background-color: #28a745; /* Changes to green on hover */
+}
+
+/* Fade-In Effect */
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+  
+  #hero {
+    text-align: center;
+    padding: 50px;
+    background: #c0aa01;
+  }
+  
+  #features, #contact {
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px; /* Adds space inside */
+    text-align: center;
+  }
